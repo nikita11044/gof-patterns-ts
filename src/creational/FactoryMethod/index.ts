@@ -1,3 +1,5 @@
+//  TODO: add description
+
 interface ICommon {
     doSomething(): string
 }
@@ -36,12 +38,12 @@ class ProductBCreator extends Creator {
     }
 }
 
-function test(creator: Creator) {
+function testFactoryMethod(creator: Creator) {
     console.log(creator.work());
 }
 
 console.log('Launching ProductACreator')
-test(new ProductACreator())
+testFactoryMethod(new ProductACreator())
 
 console.log('Launching ProductBCreator')
-test(new ProductBCreator())
+testFactoryMethod(new ProductBCreator())
