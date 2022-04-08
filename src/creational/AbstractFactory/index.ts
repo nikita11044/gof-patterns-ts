@@ -37,8 +37,8 @@ class SpecificProductA2 implements IProductA {
     }
 
     public workWith(cooperator: IProductB): string {
-         return `result of action done by ProductA2 is working with ${cooperator.anotherAction()}`;
-     }
+        return `result of action done by ProductA2 is working with ${cooperator.anotherAction()}`;
+    }
 }
 
 class SpecificProductB2 implements IProductB {
