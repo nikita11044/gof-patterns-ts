@@ -3,9 +3,9 @@
   "description": "TypeScript implementation of classic GoF design patterns",
   "author": "Nikita Iskorostinskii <n.iskorostinskii@gmail.com>",
   "devDependencies": {
-    "tslint": "^5.12.1",
-    "typescript": "^3.3.3",
-    "tslint-config-airbnb": "^5.11.1"
+    "tslint": "^6.1.3",
+    "typescript": "^4.6.3",
+    "tslint-config-airbnb": "^5.11.2"
   },
   "scripts": {
     "codestyle:check": "tslint -c tslint.json -p tsconfig.json",
