@@ -1,3 +1,5 @@
+//  TODO: add description
+
 class Prototype {
     public somePrimitive: any;
     public someObject: object;
